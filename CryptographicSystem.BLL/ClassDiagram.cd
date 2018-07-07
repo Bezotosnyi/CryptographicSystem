@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CryptographicSystem.BLL.Abstract.Cipher">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAACAAAAAAEAAAAAgAAAAIAAAAEAAAA=</HashCode>
+      <FileName>Abstract\Cipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CryptographicSystem.BLL.Ciphers.AutoKeyCipher" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAACAAAQAAQAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Ciphers\AutoKeyCipher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CryptographicSystem.BLL.Ciphers.CaesarCipher">
+    <Position X="20.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAAAAAAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ciphers\CaesarCipher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CryptographicSystem.BLL.Ciphers.FractionalCipher">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ciphers\FractionalCipher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CryptographicSystem.BLL.Ciphers.NGrammarSubstitutionCipher">
+    <Position X="14" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAggAA=</HashCode>
+      <FileName>Ciphers\NGrammarSubstitutionCipher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CryptographicSystem.BLL.Ciphers.PlayFairCipher">
+    <Position X="16.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ciphers\PlayFairCipher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CryptographicSystem.BLL.Ciphers.RunningKeyCipher">
+    <Position X="18.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ciphers\RunningKeyCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CryptographicSystem.BLL.Ciphers.SubstitutionCipher">
+    <Position X="11.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAQAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Ciphers\SubstitutionCipher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CryptographicSystem.BLL.Ciphers.TranspositionCipher" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAABAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Ciphers\TranspositionCipher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CryptographicSystem.BLL.Ciphers.VermanCipher">
+    <Position X="18.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAAAAAAACQAAQAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Ciphers\VermanCipher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CryptographicSystem.BLL.Ciphers.VigenereCipher">
+    <Position X="23" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAAAAAAAAAAAYAAAAAAJACAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Ciphers\VigenereCipher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CryptographicSystem.BLL.Extension.ExtensionMethod">
+    <Position X="27.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAAAAAAAAAKAAAAgAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extension\ExtensionMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CryptographicSystem.BLL.Ciphers.Structure.Letter">
+    <Position X="27.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAEAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Ciphers\Structure\Letter.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="CryptographicSystem.BLL.Abstract.ICipher">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstract\ICipher.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CryptographicSystem.BLL.Ciphers.Enum.AutoKeyCipherType">
+    <Position X="25.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Ciphers\Enum\AutoKeyCipherType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CryptographicSystem.BLL.Ciphers.Enum.VigenereCipherType">
+    <Position X="27.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAEAAAA=</HashCode>
+      <FileName>Ciphers\Enum\VigenereCipherType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
